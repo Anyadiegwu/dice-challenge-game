@@ -18,10 +18,32 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #4ECCA3;
 }
-
+h2{
+  color: white;
+  font-size: 4rem;
+}
+button{
+  width: 8rem;
+  font-size: 1.2rem;
+  height: 3rem;
+  background-color: #4ECCA3;
+  color: white;
+  border: none;
+  border-radius: 16px;
+}
+button:hover{
+  cursor: pointer;
+  background: #005381;
+  color: white;
+  border: 1px solid #005381;
+}
+button:active{
+  box-shadow: 3px 3px 2px #666;
+  transform: translateY(4px);
+}
 p {
   font-size: 2rem;
   color: #4ECCA3;
